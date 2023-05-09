@@ -1,0 +1,77 @@
+/* Set default styles for all elements */
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    /* Set styles for the header */
+    header {
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 20px;
+    }
+    
+    /* Style the heading */
+    header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+    
+    /* Style the navigation */
+    nav ul {
+    list-style: none;
+    text-align: center;
+    }
+    
+    nav li {
+    display: inline-block;
+    margin-right: 20px;
+    }
+    
+    nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    }
+    
+    nav li a:hover {
+    background-color: #fff;
+    color: #1abc9c;
+    text-decoration: none;
+    }
+    
+    /* Style the main content */
+    main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    }
+    
+    /* Style the headings */
+    h2 {
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    }
+    
+    /* Style the paragraphs */
+    p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+    }
+    
+    /* Style the footer */
+    footer {
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
